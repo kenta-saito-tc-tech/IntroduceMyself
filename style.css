@@ -1,0 +1,60 @@
+body {
+    background-image: url("ocean1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+    position: absolute;
+    /* 要素を絶対位置に配置する */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    /* 要素を背面に配置する */
+}
+
+.mainFont {
+    color: coral;
+}
+
+.mainBlock {
+    background-color: white;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.mainIcon {
+    width: 7%; 
+    height: auto;
+    margin-right: 10px; /* アイコンとテキストの間隔を設定 */
+}
+
+
+#g_navi {
+    background: rgb(237, 237, 237);
+    border-radius: 10px;
+}
+
+#g_navi ul {
+    display: flex;
+    margin: 0 auto;
+    padding: 0 3%;
+    list-style-type: none;
+}
+
+#g_navi ul li {
+    position: relative;
+}
+
+#g_navi ul li a {
+    display: block;
+    padding: 10px 10px;
+    color: blue;
+    text-align: center;
+    text-decoration: none;
+}
+
+#g_navi ul li a:hover {
+    background-color: white;
+}
